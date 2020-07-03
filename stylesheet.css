@@ -1,0 +1,161 @@
+/* Ketik code Anda dibaris terakhir */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear {
+    clear: left;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.top-wrapper {
+    padding: 180px 0 400px 0;
+    background-image: url(https://cdn.mos.cms.futurecdn.net/bd7Fj3qpo22j4F6eghgDaB.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.top-wrapper h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+.top-wrapper p {
+    margin-bottom: 3px;
+    font-size: 35px;
+}
+
+.btn-wrapper {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.btn-wrapper p {
+    margin: 10px 0;
+}
+
+.signup {
+    background-color: #239b76;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.fa {
+    margin-right: 5px;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: none;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    font-family: 'Bebas Neue', cursive;
+    width: 124px;
+    margin-top: 20px;
+    color: white;
+    font-size: 24px;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+    margin-right: -25px;
+}
+
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+
+.header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.lesson-wrapper {
+    background-image: url(https://i2.wp.com/thelincolnite.co.uk/wp-content/uploads/2020/05/SpaceX-Crew-Dragon.jpg?fit=1860%2C1046&ssl=1);
+    padding-bottom: 350px;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 140%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+}
+
+footer p {
+    color: #b3aeb5;
+    font-size: 12px;
+}
+
+footer {
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
